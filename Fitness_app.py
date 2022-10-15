@@ -2,8 +2,8 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Font, PatternFill, Alignment
 import os
-COEFS = {1: 0.3, 2: 0.4, 3: 0.5}
-TITLES_STRENGTH = {1: "Strength_A", 2: "Strength_B", 3: "Strength_C"}
+COEFS = {0: 0.2, 1: 0.3, 2: 0.4, 3: 0.5}
+TITLES_STRENGTH = {0: "Strength_A", 1: "Strength_B", 2: "Strength_C", 3: "Strength_D"}
 
 wb = Workbook()
 ws = wb.active
