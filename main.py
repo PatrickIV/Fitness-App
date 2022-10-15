@@ -5,6 +5,7 @@ TITLES_STRENGTH = {1: "Strength A", 2: "Strength B", 3: "Strength C"}
 TITLES_ENDURANCE = {1: "Endurance A", 2: "Endurance B", 3: "Endurance C"}
 TITLES_AGILITY = {1: "Agility A", 2: "Agility B", 3: "Agility C"}
 
+import excel_creation
 import math
 
 
