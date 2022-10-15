@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fitquest/static/css/main.e6c13ad2.css",
+    "main.js": "/fitquest/static/js/main.29b012cd.js",
+    "static/js/787.57f1edcb.chunk.js": "/fitquest/static/js/787.57f1edcb.chunk.js",
+    "static/media/FitQuestLogo.png": "/fitquest/static/media/FitQuestLogo.2fe5130c0bca976d9580.png",
+    "index.html": "/fitquest/index.html",
+    "main.e6c13ad2.css.map": "/fitquest/static/css/main.e6c13ad2.css.map",
+    "main.29b012cd.js.map": "/fitquest/static/js/main.29b012cd.js.map",
+    "787.57f1edcb.chunk.js.map": "/fitquest/static/js/787.57f1edcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.29b012cd.js"
+  ]
+}
