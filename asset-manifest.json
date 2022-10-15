@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Fitness-App/static/css/main.e6c13ad2.css",
-    "main.js": "/Fitness-App/static/js/main.cb575bf7.js",
+    "main.css": "/Fitness-App/static/css/main.734aeba0.css",
+    "main.js": "/Fitness-App/static/js/main.48e43e4c.js",
     "static/js/787.57f1edcb.chunk.js": "/Fitness-App/static/js/787.57f1edcb.chunk.js",
     "static/media/FitQuestLogo.png": "/Fitness-App/static/media/FitQuestLogo.2fe5130c0bca976d9580.png",
+    "static/media/brown-bkg.jpg": "/Fitness-App/static/media/brown-bkg.5c3eff7e7d534cf7deee.jpg",
     "index.html": "/Fitness-App/index.html",
-    "main.e6c13ad2.css.map": "/Fitness-App/static/css/main.e6c13ad2.css.map",
-    "main.cb575bf7.js.map": "/Fitness-App/static/js/main.cb575bf7.js.map",
+    "main.734aeba0.css.map": "/Fitness-App/static/css/main.734aeba0.css.map",
+    "main.48e43e4c.js.map": "/Fitness-App/static/js/main.48e43e4c.js.map",
     "787.57f1edcb.chunk.js.map": "/Fitness-App/static/js/787.57f1edcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.cb575bf7.js"
+    "static/css/main.734aeba0.css",
+    "static/js/main.48e43e4c.js"
   ]
 }
