@@ -11,6 +11,7 @@ body {
 }
 
 .actionbar-container {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
 
@@ -18,6 +19,8 @@ body {
 
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+
+  border: 1px solid #FFDF00;
 
   overflow: hidden;
 
@@ -27,8 +30,6 @@ body {
 .actionbar-section {
   flex: 1;
   height: 15vh;
-
-  border: 1px solid #FFDF00;
 }
 
 .actionbar-btn {
