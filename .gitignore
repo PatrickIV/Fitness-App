@@ -13,6 +13,7 @@ testfile.py
 /coverage
 
 # production
+/client/build
 /build
 
 # misc
