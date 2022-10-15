@@ -1,0 +1,48 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 15vh;
+  min-height: 80px;
+  background-color: rgba(54, 54, 54, 0.5);
+
+  padding-left: 15px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container button {
+  font-family: Zelda;
+  cursor: pointer;
+  border: none;
+}
+
+.logo-btn {
+  background-color: transparent;
+  height: 100%;
+}
+
+.fitquest-logo {
+  height: 100%;
+}
+
+.navbar-btn {
+  font-size: 1em;
+
+  padding: 10px 15px;
+  background-color: #c7b223;
+
+  border-radius: 10px;
+
+  margin-left: 40px;
+  
+  transition: background-color 0.2s;
+}
+
+.navbar-btn:hover {
+  background-color: #e6ca13;
+}
