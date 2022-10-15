@@ -5,9 +5,8 @@ TITLES_STRENGTH = {1: "Strength A", 2: "Strength B", 3: "Strength C"}
 TITLES_ENDURANCE = {1: "Endurance A", 2: "Endurance B", 3: "Endurance C"}
 TITLES_AGILITY = {1: "Agility A", 2: "Agility B", 3: "Agility C"}
 
-import excel_creation
+import excel_creation as xl
 import math
-
 
 class User:
     def __init__(self, name, weight):
@@ -17,7 +16,7 @@ class User:
         self.name = name
         self.exp = 0
         self.points = 0
-
+        xl.creation(name)
 
 class Strength:
     def __init__(self, user: User, bench_press, deadlift, squat):
