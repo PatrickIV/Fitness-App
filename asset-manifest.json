@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a435268.css",
-    "main.js": "/static/js/main.e071d30a.js",
-    "static/media/FitQuestLogo.png": "/static/media/FitQuestLogo.2fe5130c0bca976d9580.png",
-    "index.html": "/index.html",
-    "main.1a435268.css.map": "/static/css/main.1a435268.css.map",
-    "main.e071d30a.js.map": "/static/js/main.e071d30a.js.map"
+    "main.css": "/Fitness-App/static/css/main.1a435268.css",
+    "main.js": "/Fitness-App/static/js/main.f48babe0.js",
+    "static/media/FitQuestLogo.png": "/Fitness-App/static/media/FitQuestLogo.2fe5130c0bca976d9580.png",
+    "index.html": "/Fitness-App/index.html",
+    "main.1a435268.css.map": "/Fitness-App/static/css/main.1a435268.css.map",
+    "main.f48babe0.js.map": "/Fitness-App/static/js/main.f48babe0.js.map"
   },
   "entrypoints": [
     "static/css/main.1a435268.css",
-    "static/js/main.e071d30a.js"
+    "static/js/main.f48babe0.js"
   ]
 }
