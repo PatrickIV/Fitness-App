@@ -2,7 +2,7 @@ import React from 'react';
 import Actionbar from '../components/Actionbar';
 import RegistryStats from '../components/RegistryStats';
 
-function CharacterStats() {
+export default function Profile() {
   return (
     <div>
       {/* button to edit statistics */}
@@ -14,10 +14,10 @@ function CharacterStats() {
 
       {/* bitmoji api implementation */}
       <div style={{ position: "absolute"}}>
-
+        
       </div>
 
-      {/* progression thats */}
+      {/* progression stats */}
       <div>
 
       </div>
@@ -28,5 +28,3 @@ function CharacterStats() {
     </div>
   )
 }
-
-export default CharacterStats
