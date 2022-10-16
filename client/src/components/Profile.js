@@ -1,6 +1,6 @@
 import React from 'react';
 import RegistryStats from './RegistryStats';
-import ProgressStats from '//ProgressStats';
+import ProgressStats from './ProgressStats';
 
 export default function Profile() {
   return (
