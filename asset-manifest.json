@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/Fitness-App/static/css/main.e437f0c5.css",
-    "main.js": "/Fitness-App/static/js/main.077d87ea.js",
+    "main.css": "/Fitness-App/static/css/main.6f7f1e70.css",
+    "main.js": "/Fitness-App/static/js/main.7033a0da.js",
     "static/media/woodenShield.png": "/Fitness-App/static/media/woodenShield.71c838fc4d6b6f975488.png",
     "static/media/medievalHelmet.png": "/Fitness-App/static/media/medievalHelmet.808562049c8ece7ff5aa.png",
-    "static/media/FitQuestLogo.png": "/Fitness-App/static/media/FitQuestLogo.2fe5130c0bca976d9580.png",
+    "static/media/FitQuestLogo.png": "/Fitness-App/static/media/FitQuestLogo.a4c6220187d147bfb68b.png",
+    "static/media/squat.png": "/Fitness-App/static/media/squat.1b2f0dc3da3b72ca400a.png",
     "static/media/brown-bkg.jpg": "/Fitness-App/static/media/brown-bkg.5c3eff7e7d534cf7deee.jpg",
+    "static/media/leatherBoots.png": "/Fitness-App/static/media/leatherBoots.340c74fd796e2042eb67.png",
+    "static/media/graph.png": "/Fitness-App/static/media/graph.822f18c22dc99aa5a768.png",
     "static/media/The Wild Breath of Zelda.otf": "/Fitness-App/static/media/The Wild Breath of Zelda.f2586a76dbe6e9c1c007.otf",
-    "static/media/wind.png": "/Fitness-App/static/media/wind.54154a90ada8a47ac5bf.png",
+    "static/media/benchPress.png": "/Fitness-App/static/media/benchPress.edea5ced507624f09183.png",
+    "static/media/deadlift.png": "/Fitness-App/static/media/deadlift.b7050614d31963ddd17e.png",
     "index.html": "/Fitness-App/index.html",
-    "main.e437f0c5.css.map": "/Fitness-App/static/css/main.e437f0c5.css.map",
-    "main.077d87ea.js.map": "/Fitness-App/static/js/main.077d87ea.js.map"
+    "main.6f7f1e70.css.map": "/Fitness-App/static/css/main.6f7f1e70.css.map",
+    "main.7033a0da.js.map": "/Fitness-App/static/js/main.7033a0da.js.map"
   },
   "entrypoints": [
-    "static/css/main.e437f0c5.css",
-    "static/js/main.077d87ea.js"
+    "static/css/main.6f7f1e70.css",
+    "static/js/main.7033a0da.js"
   ]
 }
