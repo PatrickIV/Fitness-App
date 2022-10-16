@@ -1,8 +1,15 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import "./styles/Actionbar.css";
 
 function Actionbar({ currentTab, onTabClick }) {
+  let link = "/me";
+  if (currentTab === 2) {
+    link = "/choose";
+  }
+
   useEffect(() => {
+    // Light up current tab
     document.getElementById(currentTab).style.backgroundColor = "rgba(220, 211, 36, 0.2)";
 
     if (currentTab === 2) {
@@ -13,12 +20,18 @@ function Actionbar({ currentTab, onTabClick }) {
     }
 
     return () => {
-      document.getElementById(currentTab).style.backgroundColor = "rgba(54, 54, 54, 0.5)";
-      if (currentTab === 2) {
-        document.getElementById(currentTab).style.boxShadow = "#ffdd00a8 0px -5px 10px";
+      console.log("Clearing " + currentTab);
+      try {
+        document.getElementById(currentTab).style.backgroundColor = "rgba(54, 54, 54, 0.5)";
+        if (currentTab === 2) {
+          document.getElementById(currentTab).style.boxShadow = "#ffdd00a8 0px -5px 10px";
+        }
+      }
+      catch (err) {
+        console.log(err);
       }
     }
-  });
+  }, [currentTab]);
 
   return (
     <div className='actionbar-container'>
@@ -34,7 +47,11 @@ function Actionbar({ currentTab, onTabClick }) {
 
       <div className="actionbar-middle">
         <div className="actionbar-section start-section">
-          <button className="actionbar-btn start-btn" id="2" onClick={onTabClick}>START</button>
+          <Link to={link}>
+            <button className="actionbar-btn start-btn" id="2" onClick={onTabClick}>
+              START
+            </button>
+          </Link>
         </div>
       </div>
 
