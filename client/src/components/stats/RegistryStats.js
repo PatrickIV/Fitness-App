@@ -1,7 +1,6 @@
 import React from 'react'
-import "./styles/RegistryStats.css"
 
-function RegistryStats() {
+export default function RegistryStats() {
   return (
     <div className="rStats-container">
         <table className="stats">
@@ -25,5 +24,3 @@ function RegistryStats() {
     </div>
   )
 }
-
-export default RegistryStats;
