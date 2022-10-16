@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Zelda;
+    src: url("../../assets/The\ Wild\ Breath\ of\ Zelda.otf") format("opentype");
+  }
+
+tr{
+    height: 50px;
+}
+
+.rStats-container{
+    display: flex;
+    align-items: center;
+
+    margin-left: 4em;
+
+    padding: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    border-radius: 30px;
+    border: 2px solid #FFDF00;
+  
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+.stats{
+    color:#FFDF00;
+
+    font-size: 1.8em;
+    font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+}
