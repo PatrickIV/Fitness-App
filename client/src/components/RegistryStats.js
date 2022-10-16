@@ -10,8 +10,8 @@ function RegistryStats() {
                 <td>17</td>
             </tr>
             <tr>
-                <td>Sex</td>
-                <td>Everyday</td>
+                <td>Biological Sex</td>
+                <td>Female</td>
             </tr>
             <tr>
                 <td>Height</td>
