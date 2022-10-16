@@ -1,6 +1,7 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import WelcomePage from "./pages/WelcomePage";
 import MainCharacterPage from './pages/MainCharacterPage';
+import CharacterStats from './pages/CharacterStats';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Routes>
           <Route path='/' element={<WelcomePage />} />
           <Route path='/me' element={<MainCharacterPage />} />
+          <Route path='/stats' element={<CharacterStats />} />
         </Routes>
       </HashRouter>
     </div>
