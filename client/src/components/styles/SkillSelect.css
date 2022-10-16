@@ -16,7 +16,8 @@
   box-shadow: white 10px 10px 30px -20px inset, rgba(0, 0, 0, 0.3) -10px -10px 36px -10px inset;
 
   cursor: pointer;
-  transition: opacity 0.1s;
+  transition: opacity 0.1s,
+    transform 0.2s;
 }
 
 @media (max-width: 1000px) {
@@ -33,6 +34,13 @@
 
 .skill-select-container:hover {
   opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.skill-select-container:active {
+  opacity: 1;
+  background-color: #c0a60053;
+  transform: scale(1.05);
 }
 
 .skill-img-container {
