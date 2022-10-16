@@ -4,6 +4,8 @@ import MainCharacterPage from './pages/MainCharacterPage';
 import ChooseSkill from "./pages/ChooseSkill";
 import Profile from './components/Profile';
 import LoginPage from './pages/LoginPage';
+import Milestones from './pages/Milestones';
+import Streambar from './components/Streambar';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Route path='/choose' element={<ChooseSkill />} />
           <Route path='/prof' element={<Profile />} />
           <Route path='/login' element={<LoginPage />} />
+          <Route path='/miles' element={<Milestones />} />
         </Routes>
       </HashRouter>
     </div>
