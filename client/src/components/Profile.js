@@ -1,6 +1,6 @@
 import React from 'react';
-import Actionbar from '../components/Actionbar';
-import RegistryStats from '../components/RegistryStats';
+import RegistryStats from './RegistryStats';
+import ProgressStats from '//ProgressStats';
 
 export default function Profile() {
   return (
@@ -19,12 +19,13 @@ export default function Profile() {
 
       {/* progression stats */}
       <div>
-
+        <ProgressStats />
       </div>
 
-      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
+      {/* won't need this if this is just used as a component for the main menu
+       <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
         <Actionbar />
-      </div>
+      </div> */}
     </div>
   )
 }
