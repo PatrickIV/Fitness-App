@@ -1,0 +1,24 @@
+.choose-skill-container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 5%;
+}
+
+.choose-skill-title {
+  font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+  color: #bfa600;
+  font-size: 3em;
+
+  margin-bottom: 50px;
+}
+
+.skill-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}

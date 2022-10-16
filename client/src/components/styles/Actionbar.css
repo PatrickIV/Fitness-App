@@ -13,17 +13,9 @@ body {
 .actionbar-container {
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 
   width: 100%;
-  height: 15vh;
-
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-
-  border: 1px solid #FFDF00;
-
-  overflow: hidden;
 
   z-index: 10;
 }
@@ -37,7 +29,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(54, 54, 54, 0.5);
-  color: #FFDF00;
+  color: #cdae00;
   font-weight: 500;
   font-size: 1.8em;
   font-family: 'Zelda', 'Roboto Condensed', sans-serif;
@@ -50,28 +42,75 @@ body {
 
 .actionbar-btn:hover {
   font-size: 1.9em;
-  background-color: rgba(143, 151, 58, 0.6);
 }
 
 .start-section {
   flex: 1.3;
   font-weight: 700;
+  border: 1px solid #FFDF00;
+  box-shadow: #ffdd00a8 0px -5px 15px;
+
+  transition: box-shadow 0.2s;
 }
 
 .start-btn {
-  font-size: 2.6em;
+  font-size: 3em;
+  height: 20vh;
 
   transition: font-size 0.15s;
+  
+  border: none;
 }
 
 .start-btn:hover {
-  font-size: 2.7em;
+  font-size: 3.2em;
+}
+
+.actionbar-left, .actionbar-right {
+  display: flex;
+  height: 15vh;
+  flex: 1;
+
+  border: 1px solid #FFDF00;
+
+  overflow: hidden;
+}
+.actionbar-left {
+  border-top-left-radius: 30px;
+  border-right: none;
+}
+.actionbar-right {
+  border-top-right-radius: 30px;
+  border-left: none;
+}
+
+.actionbar-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.7;
 }
 
 .trapezoid {
-	border-bottom: 50px solid #555;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	height: 100;
-	width: 125px;
+  width: 230px;
+  text-align: center;
+  height: 0; 
+  position: relative;
+  border-right: 30px solid transparent;
+  border-bottom: 100px solid rgba(54, 54, 54, 0.5);
+  border-left: 30px solid transparent;
+  box-sizing: content-box;
+}
+.trapezoid span { 
+  position: absolute;
+  top: -30px;
+  left: 25%;
+  color: #FFDF00;
+  font-weight: 500;
+  font-size: 1.8em;
+  font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+}
+
+path {
+  outline: #FFDF00;
 }

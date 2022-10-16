@@ -1,0 +1,52 @@
+.skill-select-container {
+  width: 250px;
+  height: 250px;
+
+  border-radius: 30px;
+
+  background-color: rgba(78, 78, 78, 0.395);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+
+  box-shadow: white 10px 10px 30px -20px inset, rgba(0, 0, 0, 0.3) -10px -10px 36px -10px inset;
+
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+@media (max-width: 1000px) {
+  .skill-select-container {
+    width: 200px;
+  }
+}
+
+@media (max-width: 850px) {
+  .skill-select-container {
+    width: 180px;
+  }
+}
+
+.skill-select-container:hover {
+  opacity: 0.8;
+}
+
+.skill-img-container {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-img {
+  object-fit: cover;
+}
+
+.skill-title {
+  font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+}
