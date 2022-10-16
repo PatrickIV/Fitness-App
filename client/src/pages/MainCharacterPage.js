@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Actionbar from '../components/Actionbar';
 import Navbar from "../components/Navbar";
 
+// when selected tab is "Profile", display "Profile.js" component
+// can get rid of profiel button in the navbar
+
 function MainCharacterPage() {
   // 0 - Regiment, 1 - Inventory, 2 - Profile, 3 - Leaderboard, 4 - Setting, 5 - START
   const [tab, setTab] = useState(2);
