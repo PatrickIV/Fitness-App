@@ -2,7 +2,7 @@ import { Routes, Route, HashRouter } from 'react-router-dom';
 import WelcomePage from "./pages/WelcomePage";
 import MainCharacterPage from './pages/MainCharacterPage';
 import ChooseSkill from "./pages/ChooseSkill";
-import CharacterStats from './pages/CharacterStats';
+import Profile from './components/Profile';
 import LoginPage from './pages/LoginPage';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <Route path='/' element={<WelcomePage />} />
           <Route path='/me' element={<MainCharacterPage />} />
           <Route path='/choose' element={<ChooseSkill />} />
-          <Route path='/stats' element={<CharacterStats />} />
+          <Route path='/prof' element={<Profile />} />
           <Route path='/login' element={<LoginPage />} />
         </Routes>
       </HashRouter>

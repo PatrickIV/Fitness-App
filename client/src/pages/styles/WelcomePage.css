@@ -1,0 +1,34 @@
+.welcomeOption{
+    background-color: rgba(54, 54, 54, 0.5);
+
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-btn{
+    background-color: rgba(54, 54, 54, 0.5);
+    color: #cdae00;
+    font-weight: 500;
+    font-size: 2.25em;
+    font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+
+    cursor: pointer;
+
+    padding: 20px 50px;
+    
+    border-radius: 10px;
+    border: transparent;
+  
+    margin-left: 3em;
+    margin-right: 3em;
+    
+    transition: font-size 0.15s,
+    background-color 0.2s;
+}
+
+.welcome-btn:hover{
+    background-color: #e6ca13;
+}
