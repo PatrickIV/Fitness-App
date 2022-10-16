@@ -1,0 +1,77 @@
+/* Replace */
+body {
+  /* background-image: url("../../assets/brown-bkg.jpg"); */
+  background-image: url("../../assets/brown-bkg.jpg"), linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Zelda;
+  src: url("../../assets/The\ Wild\ Breath\ of\ Zelda.otf") format("opentype");
+}
+
+.actionbar-container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 15vh;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  border: 1px solid #FFDF00;
+
+  overflow: hidden;
+
+  z-index: 10;
+}
+
+.actionbar-section {
+  flex: 1;
+  height: 100%;
+}
+
+.actionbar-btn {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(54, 54, 54, 0.5);
+  color: #FFDF00;
+  font-weight: 500;
+  font-size: 1.8em;
+  font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+
+  cursor: pointer;
+
+  transition: font-size 0.15s,
+    background-color 0.2s;
+}
+
+.actionbar-btn:hover {
+  font-size: 1.9em;
+  background-color: rgba(143, 151, 58, 0.6);
+}
+
+.start-section {
+  flex: 1.3;
+  font-weight: 700;
+}
+
+.start-btn {
+  font-size: 2.6em;
+
+  transition: font-size 0.15s;
+}
+
+.start-btn:hover {
+  font-size: 2.7em;
+}
+
+.trapezoid {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 100;
+	width: 125px;
+}
