@@ -1,5 +1,6 @@
 import math
 import excel_data
+import send_SQLdata as sql
 from datetime import datetime
 COEFS_BP = {1: 0.5, 2: 0.75, 3: 1.2, 4: 1.35, 5: 1.55, 6: 1.70, 7: 1.80, 8: 1.90, 9: 2, 10: 2.25}
 COEFS_DL = {1: 0.5, 2: 0.75, 3: 1.3, 4: 1.5, 5: 1.7, 6: 1.9, 7: 2.1, 8: 2.35, 9: 2.5, 10: 2.7}
@@ -53,9 +54,9 @@ class Strength:
         level.add_entry(self.user.level)
         points = excel_data.fitQuest(self.user.name, 'Strength')
         points.add_entry(self.user.points)
-
+        sql.SQLsend(self.user.name)
 if __name__ == '__main__':
-    my_user = User("Danny", 155)
+    my_user = User("Patrick", 145)
     my_bench_press = float(input('Enter your bench press weight: '))
     my_deadlift = float(input('Enter your deadlift weight: '))
     my_squat = float(input('Enter your squat press weight: '))
@@ -63,3 +64,4 @@ if __name__ == '__main__':
     my_strength.levelStrength()
     print(my_user.points)
     print(my_user.exp)
+
