@@ -6,9 +6,11 @@ import logo from "../assets/FitQuestLogo.png";
 function Navbar() {
   return (
     <div className="navbar-container">
-      <button className="logo-btn">
-        <img src={logo} alt="FitQuest logo" className="fitquest-logo" />
-      </button>
+      <Link to="/">
+        <button className="logo-btn">
+          <img src={logo} alt="FitQuest logo" className="fitquest-logo" />
+        </button>
+      </Link>
       <div className="right-buttons">
         <Link to="/about">
           <button className="navbar-btn">ABOUT</button>

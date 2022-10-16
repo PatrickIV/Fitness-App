@@ -1,0 +1,40 @@
+.progress-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.level {
+  font-family: 'Zelda', 'Roboto Condensed', sans-serif;
+  color: #FFDF00;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.progress-bar {
+  width: 60%;
+  height: 40px;
+
+  border-radius: 20px;
+
+  background-color: #6161618d;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 6px;
+}
+
+.progress {
+  height: 70%;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  background-color: rgb(240, 208, 0);
+
+  box-shadow: rgba(0, 0, 0, 0.877) 3px 10px 20px -7px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+}
