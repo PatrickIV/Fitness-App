@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/Fitness-App/static/css/main.1a435268.css",
-    "main.js": "/Fitness-App/static/js/main.f48babe0.js",
+    "main.css": "/Fitness-App/static/css/main.e437f0c5.css",
+    "main.js": "/Fitness-App/static/js/main.077d87ea.js",
+    "static/media/woodenShield.png": "/Fitness-App/static/media/woodenShield.71c838fc4d6b6f975488.png",
+    "static/media/medievalHelmet.png": "/Fitness-App/static/media/medievalHelmet.808562049c8ece7ff5aa.png",
     "static/media/FitQuestLogo.png": "/Fitness-App/static/media/FitQuestLogo.2fe5130c0bca976d9580.png",
+    "static/media/brown-bkg.jpg": "/Fitness-App/static/media/brown-bkg.5c3eff7e7d534cf7deee.jpg",
+    "static/media/The Wild Breath of Zelda.otf": "/Fitness-App/static/media/The Wild Breath of Zelda.f2586a76dbe6e9c1c007.otf",
+    "static/media/wind.png": "/Fitness-App/static/media/wind.54154a90ada8a47ac5bf.png",
     "index.html": "/Fitness-App/index.html",
-    "main.1a435268.css.map": "/Fitness-App/static/css/main.1a435268.css.map",
-    "main.f48babe0.js.map": "/Fitness-App/static/js/main.f48babe0.js.map"
+    "main.e437f0c5.css.map": "/Fitness-App/static/css/main.e437f0c5.css.map",
+    "main.077d87ea.js.map": "/Fitness-App/static/js/main.077d87ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a435268.css",
-    "static/js/main.f48babe0.js"
+    "static/css/main.e437f0c5.css",
+    "static/js/main.077d87ea.js"
   ]
 }
