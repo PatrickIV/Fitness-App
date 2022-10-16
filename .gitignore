@@ -27,3 +27,5 @@ yarn-debug.log*
 yarn-error.log*
 
 server/Data/Andre.xlsx
+*.xlsx
+*.xlsx
