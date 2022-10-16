@@ -45,7 +45,8 @@ class fitQuest:
             self.quest[self.pos(row)] = self.stats[row]
         self.load.save(f'Data/{self.name}.xlsx')
 
-
+    def prev_goal(self):
+            return self.quest[self.pos(len(self.stats))].value
 
 
 
