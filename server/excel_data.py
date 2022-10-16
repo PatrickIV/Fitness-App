@@ -1,46 +1,51 @@
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter as char
+
 from datetime import datetime
 import os
 
-headings = ['Lv', 'Strength', 'Endurance', 'Agility', 'Bench Press', 'Dead Lift', 'Squat', 'Time']
-directory = {'Time': [], 'Lv': [], 'Strength': [], 'Endurance': [], 'Agility': [], 'Bench Press': [], 'Dead Lift': [], 'Squat': []}
+headings = ['Time', 'Lv', 'Strength', 'Bench Press', 'Dead Lift', 'Squat']
 wb = Workbook()
 ws = wb.active
 class fitQuest:
-    def __init__(self, name):
+    def __init__(self, name, category):
         self.name = name
-        if os.path.isfile(f'Data/{name}.xlsx') == True:
-            self.load = load_workbook(f'Data/{name}.xlsx')
-            self.quest = self.load.active
-            self.check_cells()
-        else:
+        self.cat = category
+        self.stats = []
+        if os.path.isfile(f'Data/{name}.xlsx') == False:
             wb.title = name
             ws.append(headings)
             wb.save(f'Data/{name}.xlsx')
+        self.load = load_workbook(f'Data/{name}.xlsx')
+        self.quest = self.load.active
+        self.check_cells()
+    def pos(self, rows):
+        if self.cat == 'Time':
+            return char(1) + str(rows+2)
+        elif self.cat == 'Lv':
+            return char(2) + str(rows+2)
+        elif self.cat == 'Strength':
+            return char(3) + str(rows+2)
+        elif self.cat == 'Bench Press':
+            return char(4) + str(rows+2)
+        elif self.cat == 'Dead Lift':
+            return char(5) + str(rows+2)
+        else:
+            return char(6) + str(rows+2)
     def check_cells(self):
         for row in range(1000):
-            for sections in range(len(headings)):
-                if self.quest[char(sections+1) + str(row+2)] == None:
-                    break
-                directory[headings[sections]] = self.quest[char(sections + 1) + str(row + 2)].value
-        print(directory)
+            if self.quest[self.pos(row)].value == None:
+                break
+            else:
+                self.stats.append(self.quest[self.pos(row)].value)
 
-    def add_entry(self, name, lv, stre, endr, agil, bp, dl, sq):
-        entries = [lv, stre, endr, agil, bp, dl, sq]
-        if directory['Time'] == None:
-           n = 0
-        else:
-           n = len(directory['Time'])
-        for i in range(len(entries)):
-            directory[headings[i]].append(entries[i])
-        for row in range(n):
-            for col in (range(len(entries))):
-                self.quest.append(list(directory[headings[col]][row].values()))
-            self.quest['H' + str(row+2)] = directory['time'][row]
-        print(directory)
-        self.load.save(f'{self.name}.xlsx')
+    def add_entry(self, num):
+        self.stats.append(num)
+        for row in range(len(self.stats)):
+            self.quest[self.pos(row)] = self.stats[row]
+        self.load.save(f'Data/{self.name}.xlsx')
 
 
-p = fitQuest('Andre')
-p.add_entry(9, 12,15,66,53,234,125,57)
+
+
+
