@@ -8,8 +8,8 @@
 }
 
 .skill-picture-container {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 300px;
   border: 2px solid gold;
   background-color: rgba(132, 132, 132, 0.224);
@@ -43,8 +43,8 @@
   bottom: 0;
   left: -1px;
 
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 300px;
 
   z-index: 15;
@@ -60,6 +60,6 @@
   margin-left: 40px;
 
   color: rgb(244, 216, 55);
-
   font-size: 2em;
+  font-family: 'Zelda';
 }

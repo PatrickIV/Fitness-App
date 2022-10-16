@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import StrengthStats from "../components/StrengthStats";
 import StrengthExercises from "../components/StrengthExercises";
 import ExerciseEntry from "../components/ExerciseEntry";
+import Navbar from '../components/Navbar';
 
 function StrengthPath() {
-  let score = 22;   // test
+  let score = 27;   // test
 
   const [skill, setSkill] = useState(null);
 
@@ -17,11 +18,14 @@ function StrengthPath() {
   }
 
   return (
-    <div className="strength-path-container" style={{ display: "flex", justifyContent: "space-between" }}>
-      <StrengthStats score={score} />
-      <StrengthExercises currentSkill={skill} onSkillChange={handleSkillChange} />
-      <ExerciseEntry skill={skill} />
-    </div>
+    <>
+      <Navbar />
+      <div className="strength-path-container" style={{ display: "flex", justifyContent: "space-between", paddingTop: "60px" }}>
+        <StrengthStats score={score} />
+        <StrengthExercises currentSkill={skill} onSkillChange={handleSkillChange} />
+        <ExerciseEntry skill={skill} />
+      </div>
+    </>
   );
 }
 

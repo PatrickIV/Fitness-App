@@ -10,7 +10,7 @@ function SkillSelect({ picture, title, titleColor, size = 175, margin = 0, link 
           <img src={picture} alt={title + " skill"} className="skill-img"
             style={{ width: size + "px", height: size + "px", marginBottom: margin + "px" }} />
         </div>
-        <div className="skill-title" style={{ color: titleColor }}>{title}</div>
+        <div className="skill-select-title" style={{ color: titleColor }}>{title}</div>
       </div>
     </Link>
   )

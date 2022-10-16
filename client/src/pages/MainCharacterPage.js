@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Actionbar from '../components/Actionbar';
 import Navbar from "../components/Navbar";
+import RegistryStats from '../components/RegistryStats';
 
 // when selected tab is "Profile", display "Profile.js" component
 // can get rid of profiel button in the navbar
@@ -23,6 +24,9 @@ function MainCharacterPage() {
     return (
       <>
         <Navbar />
+        <div style={{ paddingTop: "80px" }}>
+          <RegistryStats />
+        </div>
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
           <Actionbar currentTab={tab} onTabClick={handleTabClick} />
         </div>
@@ -34,6 +38,9 @@ function MainCharacterPage() {
     return (
       <>
         <Navbar />
+        <div style={{ paddingTop: "80px" }}>
+          <RegistryStats />
+        </div>
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
           <Actionbar currentTab={tab} onTabClick={handleTabClick} />
         </div>
@@ -45,6 +52,9 @@ function MainCharacterPage() {
     return (
       <>
         <Navbar />
+        <div style={{ paddingTop: "80px" }}>
+          <RegistryStats />
+        </div>
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
           <Actionbar currentTab={tab} onTabClick={handleTabClick} />
         </div>
@@ -56,6 +66,9 @@ function MainCharacterPage() {
     return (
       <>
         <Navbar />
+        <div style={{ paddingTop: "80px" }}>
+          <RegistryStats />
+        </div>
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
           <Actionbar currentTab={tab} onTabClick={handleTabClick} />
         </div>
@@ -67,6 +80,9 @@ function MainCharacterPage() {
     return (
       <>
         <Navbar />
+        <div style={{ paddingTop: "80px" }}>
+          <RegistryStats />
+        </div>
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}>
           <Actionbar currentTab={tab} onTabClick={handleTabClick} />
         </div>
