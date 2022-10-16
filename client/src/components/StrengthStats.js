@@ -1,8 +1,16 @@
 import React from 'react';
+import ProgressBar from "./ProgressBar";
+import ProgressGraph from "./ProgressGraph";
+import "./styles/StrengthStats.css";
 
-function StrengthStats() {
+function StrengthStats({ score }) {
   return (
-    <div>StrengthStats</div>
+    <div className="strength-stats-container">
+      <div className="strength-title">STRENGTH</div>
+      <div className="strength-score">{score}</div>
+      <ProgressBar score={score} />
+      <ProgressGraph />
+    </div>
   )
 }
 
