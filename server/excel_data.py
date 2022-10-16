@@ -1,7 +1,6 @@
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter as char
 
-from datetime import datetime
 import os
 
 headings = ['Time', 'Lv', 'Strength', 'Bench Press', 'Dead Lift', 'Squat']

@@ -55,7 +55,7 @@ class Strength:
         points.add_entry(self.user.points)
 
 if __name__ == '__main__':
-    my_user = User("Le", 145)
+    my_user = User("Danny", 155)
     my_bench_press = float(input('Enter your bench press weight: '))
     my_deadlift = float(input('Enter your deadlift weight: '))
     my_squat = float(input('Enter your squat press weight: '))

@@ -27,5 +27,5 @@ yarn-debug.log*
 yarn-error.log*
 
 server/Data/Andre.xlsx
-package-lock.json
-package.json
+*.xlsx
+*.xlsx
