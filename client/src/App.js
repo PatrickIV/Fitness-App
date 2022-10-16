@@ -1,6 +1,7 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import WelcomePage from "./pages/WelcomePage";
 import MainCharacterPage from './pages/MainCharacterPage';
+import ChooseSkill from "./pages/ChooseSkill";
 import CharacterStats from './pages/CharacterStats';
 import LoginPage from './pages/LoginPage';
 
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<WelcomePage />} />
           <Route path='/me' element={<MainCharacterPage />} />
+          <Route path='/choose' element={<ChooseSkill />} />
           <Route path='/stats' element={<CharacterStats />} />
           <Route path='/login' element={<LoginPage />} />
         </Routes>
