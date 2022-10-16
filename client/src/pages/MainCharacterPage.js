@@ -8,19 +8,15 @@ import Navbar from "../components/Navbar";
 function MainCharacterPage() {
   // 0 - Regiment, 1 - Inventory, 2 - Profile, 3 - Leaderboard, 4 - Setting, 5 - START
   const [tab, setTab] = useState(2);
+
   useEffect(() => {
     // Get user info (age, weight, level, etc.)
     // Get strength stats (lv)
   }, []);
 
   function handleTabClick(e) {
-    if (+e.target.id === 2 && tab === 2) {
-      console.log(5);
-      // send to other website
-    } else {
-      console.log(+e.target.id);
-      setTab(+e.target.id);
-    }
+    console.log(+e.target.id);
+    setTab(+e.target.id);
   }
 
   if (tab === 0) {
