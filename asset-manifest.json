@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Fitness-App/static/css/main.6f7f1e70.css",
-    "main.js": "/Fitness-App/static/js/main.7033a0da.js",
+    "main.css": "/Fitness-App/static/css/main.e44af5cc.css",
+    "main.js": "/Fitness-App/static/js/main.97e1ac43.js",
     "static/media/woodenShield.png": "/Fitness-App/static/media/woodenShield.71c838fc4d6b6f975488.png",
     "static/media/medievalHelmet.png": "/Fitness-App/static/media/medievalHelmet.808562049c8ece7ff5aa.png",
     "static/media/FitQuestLogo.png": "/Fitness-App/static/media/FitQuestLogo.a4c6220187d147bfb68b.png",
@@ -13,11 +13,11 @@
     "static/media/benchPress.png": "/Fitness-App/static/media/benchPress.edea5ced507624f09183.png",
     "static/media/deadlift.png": "/Fitness-App/static/media/deadlift.b7050614d31963ddd17e.png",
     "index.html": "/Fitness-App/index.html",
-    "main.6f7f1e70.css.map": "/Fitness-App/static/css/main.6f7f1e70.css.map",
-    "main.7033a0da.js.map": "/Fitness-App/static/js/main.7033a0da.js.map"
+    "main.e44af5cc.css.map": "/Fitness-App/static/css/main.e44af5cc.css.map",
+    "main.97e1ac43.js.map": "/Fitness-App/static/js/main.97e1ac43.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7f1e70.css",
-    "static/js/main.7033a0da.js"
+    "static/css/main.e44af5cc.css",
+    "static/js/main.97e1ac43.js"
   ]
 }
