@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Actionbar from '../components/Actionbar';
 import Navbar from "../components/Navbar";
-import RegistryStats from '../components/RegistryStats';
+import RegistryStats from '../components/stats/RegistryStats';
 
 // when selected tab is "Profile", display "Profile.js" component
 // can get rid of profiel button in the navbar
